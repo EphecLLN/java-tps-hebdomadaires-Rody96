@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\HE201493\OneDrive - EPHEC asbl\Java - Copie\TP3\.metadata\.plugins\org.eclipse.jdt.core
+2424646841.index
+113558702.index
+3995237016.index
+3460420904.index

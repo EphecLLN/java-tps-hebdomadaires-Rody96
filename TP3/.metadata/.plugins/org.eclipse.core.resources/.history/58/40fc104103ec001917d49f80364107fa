@@ -1,0 +1,24 @@
+package tp3;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TestClassTest {
+
+	@Test
+	void testIsPair() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPerimetreCarre() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testContientCaractere() {
+		fail("Not yet implemented");
+	}
+
+}

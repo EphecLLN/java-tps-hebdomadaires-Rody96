@@ -1,0 +1,35 @@
+package tp3;
+
+import static org.junit.Assert.assertEquals;
+
+//import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Assert.*;
+import org.junit.Before.*;
+import org.junit.Test;
+/*import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Before;*/
+
+class TestClassTest {
+	Toto t;
+	
+	@Before
+	public void setUp() {
+		t = new Toto();
+	}
+	
+	@Test
+	void testIsPair() {
+		assertEquals(true,t.isPair(0));
+	}
+
+	@Test
+	void testPerimetreCarre() {
+		assertEquals(8, t.perimetreCarre(2));
+	}
+
+	@Test
+	void testContientCaractere() {
+		assertEquals(true, t.contientCaractere('i',"anticonstitutionnellement"));
+	}
+
+}

@@ -1,0 +1,84 @@
+/**
+ * 
+ */
+package tp3;
+
+/**
+ * @author HE201493
+ *
+ */
+public class Toto {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//
+	}
+	
+	/**
+	 * Méthode vérifiant si un nombre est pair
+	 * 
+	 * pre n != 0
+	 * 
+	 * @param n nombre entier quelconque
+	 * @return true si le nombre est pair, false sinon.
+	 */
+	public boolean isPair(int n) {
+		/*
+		if(n % 2 == 0) {
+			return true;
+		}
+		else {
+			return false;
+		}
+		*/
+	}
+	
+	/**
+	 * Méthode calculant le périmètre d'un carré sur base de la longueur de son coté passé en paramètre.
+	 * 
+	 * pre n > 0 
+	 * 
+	 * post
+	 * 
+	 * @param cote nombre correspondant à un coté du carré
+	 * @return un nombre > 0, le résultat étant le périmètre du carré.
+	 */
+	public int perimetreCarre(int cote) {
+		/*
+		int perim = 0;
+		if(cote < 0) {
+			System.out.println("nombre inférieur ou égale à 0");
+		}
+		else {
+			perim = 4 * cote;
+		}
+		return perim;
+		*/
+	}
+	
+	/**
+	 * Méthode vérifiant si le caractère passé en argument se trouve dans la chaine de caractère également passé en paramètre.
+	 * 
+	 * pre str ne peut pas être vide.
+	 *  
+	 * post
+	 *  
+	 * @param c caractère quelconque
+	 * @param str chaine de caractères
+	 * @return
+	 */
+    public boolean contientCaractere(char c, String str){
+    	/*
+    	for(int i=0;i < str.length();i++){
+    		if(str.charAt(i) == c) {
+    			return true;
+    		}
+    	}	
+    	return false;
+    	*/
+    }
+    
+ 
+}
